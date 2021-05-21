@@ -12,4 +12,4 @@ RUN pip3 install -r requirements.txt
 
 #running the code
 COPY driver.py /app/driver.py
-CMD python3 driver.py
+CMD ["python3", "driver.py"]
