@@ -26,7 +26,7 @@
 
 ### Notes and ToDo.
 -------------------
-* On Heroku, the tool may look like its not doing anything. Please wait until it the download completes and then you will see all the logs.  
+* On Heroku, the tool may look like its not doing anything. Please wait until the download completes and then you will see all the logs.  
 
 * I wanted the code to directly save contents to the mega drive rather than download and upload, But due to the limitations of finding something for Mega to mount the drives, I could not do it.
 	* You're most welcome if you can add this feature.
