@@ -1,6 +1,6 @@
 build:
   docker:
-    web: Dockerfile
+    worker: Dockerfile
 setup:
   config:
     EMAIL: "${EMAIL}"
