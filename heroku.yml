@@ -1,7 +1,6 @@
 build:
   docker:
     worker: Dockerfile
-setup:
   config:
     EMAIL: "${EMAIL}"
     PASS: "${PASS}"
