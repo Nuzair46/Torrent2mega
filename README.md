@@ -13,8 +13,7 @@
 
 ### Notes and ToDo.
 -------------------
-* Although I wanted this to be hosted on Heroku, It is not working beyond `State changed from starting to up` .
-	* You are free to look into this. heroku.yml is already setup, you can edit it with your needs if you can make it work.
+* This works on Heroku too. but it doesn't give any log. but you can see the output in your mega drive. But this is a bit slow.  
 
 * I also wanted it to directly save contents to the drive rather than download and upload, But due to the limitations of finding something for Mega, I could not do it.
 	* You're most welcome if you can add this feature.
