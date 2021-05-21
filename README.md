@@ -18,7 +18,7 @@
 * To run the docker on a VPS:
 	* Fill the `.env` given. Don't use "quotes".
 	* `sudo docker build --no-cache -t torrent2mega .`
-	* `sudo docker run --env-file .env -t torrent2mega`
+	* `sudo docker run --env-file .env -it torrent2mega`
 
 * On Heroku, make sure to kill the Dyno after the download is complete, because Heroku will relaunch the code and may lead to overwriting in Mega.
 * When using on Heroku, Make sure to deploy the repo everytime rather than just starting the Dyno, this will delete any previously downloaded cache.
