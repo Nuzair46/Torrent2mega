@@ -1,3 +1,8 @@
 build:
   docker:
     web: Dockerfile
+setup:
+  config:
+    EMAIL: "${EMAIL}"
+    PASS: "${PASS}"
+    MAGNET: "${MAGNET}"
