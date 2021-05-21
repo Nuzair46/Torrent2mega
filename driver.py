@@ -62,7 +62,9 @@ class Driver():
 		print("Uploading to Mega...")
 		for file in f:
 			mClient.upload(f'{handle.name()}/{file}', folder[0])
+			os.system(f"mv {handle.name()}/{file} {handle.name()}/{file}.bak")
 		print("Upload Completed...\n Happy Torrenting...")
+		os.system(f"rm -R {handle.name()}")
 		exit()
 if __name__ == '__main__':
 	Driver.run()
