@@ -60,9 +60,14 @@ class Driver():
 			break
 		folder = mClient.find(f'{handle.name()}')
 		print("Uploading to Mega...")
+		length = len(f)
 		for file in f:
+			print(f"Uploading {file}.")
 			mClient.upload(f'{handle.name()}/{file}', folder[0])
 			os.system(f"mv {handle.name()}/{file} {handle.name()}/{file}.bak")
+			length -= length
+			if length == 0:
+				break
 		print("Upload Completed...\n Happy Torrenting...")
 		os.system(f"rm -R {handle.name()}")
 		exit()
